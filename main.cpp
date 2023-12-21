@@ -2,11 +2,11 @@
 
 using namespace std;
 
-int Add2Values(int, int);
+int Add2Values(float, float);
 
 int main()
 {
-    int x, y;
+    float x, y;
     cout
         << "-- Add 2 Values --\n"
         << "Enter x Values: ";
@@ -17,13 +17,15 @@ int main()
    
     cout <<"The value of x and y is = ";
     
+    	
+
 
     cout << Add2Values(x, y);
 
     return 0;
 }
+int Add2Values(float x, float y)
 
-int Add2Values(int x, int y)
 {
     return x+y;
 }

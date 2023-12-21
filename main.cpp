@@ -14,14 +14,16 @@ int main()
     cout << "Enter y Value: ";
     cin >> y;
 
-    cout << "__________________";
+   
+    cout <<"The value of x and y is = ";
+    
 
-    cout << Add2Values(x, y)
+    cout << Add2Values(x, y);
 
     return 0;
 }
 
 int Add2Values(int x, int y)
 {
-    // make your code here
+    return x+y;
 }
